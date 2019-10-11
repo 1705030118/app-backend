@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/backend/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service-api/user-service-api.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service-api/user-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" />
+    </modules>
+  </component>
+</project>
