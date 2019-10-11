@@ -7,7 +7,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/chat-service/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/backend/search-service/pom.xml" />
+      </set>
+    </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

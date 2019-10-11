@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/activity-service/activity-service.iml" filepath="$PROJECT_DIR$/backend/activity-service/activity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" filepath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" filepath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/chat-service/chat-service.iml" filepath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service.iml" filepath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/dynamic-service-api.iml" filepath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/dynamic-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" filepath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/backend/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/search-service/search-service.iml" filepath="$PROJECT_DIR$/backend/search-service/search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/search-service/search-service-api/search-service-api.iml" filepath="$PROJECT_DIR$/backend/search-service/search-service-api/search-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" filepath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/search-service/search-service-api/searchserviceapi.iml" filepath="$PROJECT_DIR$/backend/search-service/search-service-api/searchserviceapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service-api/user-service-api.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service-api/user-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" filepath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" />
