@@ -15,13 +15,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eureka-server</module>
-        <module>user-service</module>
         <module>api-gateway</module>
         <module>user-service</module>
         <module>search-service</module>
-        <module>search-service</module>
         <module>activity-service</module>
         <module>dynamic-service</module>
+        <module>cache-service</module>
+        <module>chat-service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

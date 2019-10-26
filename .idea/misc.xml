@@ -11,10 +11,12 @@
         <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/chat-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/backend/cache-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/search-service/pom.xml" />
       </set>
     </option>

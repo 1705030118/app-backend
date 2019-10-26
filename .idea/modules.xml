@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" filepath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/cache-service/cache-service.iml" filepath="$PROJECT_DIR$/backend/cache-service/cache-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/cache-service-api.iml" filepath="$PROJECT_DIR$/backend/cache-service/cache-service-api/cache-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/cache-service-core.iml" filepath="$PROJECT_DIR$/backend/cache-service/cache-service-core/cache-service-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/chat-service/chat-service.iml" filepath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service.iml" filepath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/dynamic-service-api.iml" filepath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/dynamic-service-api.iml" />

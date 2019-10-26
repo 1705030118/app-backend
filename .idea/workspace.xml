@@ -2,44 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a159081-96ab-43bc-a350-f6b227533ec5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/com/ldm/ApiGatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/com/ldm/aggregation/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/target/test-classes/com/ldm/ApiGatewayApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/dynamic-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/src/main/java/com/ldm/api/DynamicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dynamic-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/eureka-server/target/classes/com/ldm/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/eureka-server/target/test-classes/com/ldm/EurekaServerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/search-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/search-service-api/search-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/search-service-api/src/main/java/com/ldm/api/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search-service/search-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/api/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/UserServiceCoreApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/core/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/test-classes/com/ldm/UserServiceCoreApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/DynamicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/cache-service-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/cache-service-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cache-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_8_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chat-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chat-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eureka-server/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/core/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/core/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend/user-service/user-service-core/target/" />
     <ignored path="$PROJECT_DIR$/backend/user-service/target/" />
@@ -57,6 +86,9 @@
     <ignored path="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/target/" />
     <ignored path="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/target/" />
     <ignored path="$PROJECT_DIR$/backend/chat-service/target/" />
+    <ignored path="$PROJECT_DIR$/backend/cache-service/target/" />
+    <ignored path="$PROJECT_DIR$/backend/cache-service/cache-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/backend/cache-service/cache-service-core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +101,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/chat-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="326">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/chat-service/src/main/java/com/ldm/ChatServiceApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="846">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -89,8 +121,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/FeignException.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +205,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,11 +220,39 @@
       <list>
         <option value="$PROJECT_DIR$/backend/search-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/activity-service/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/dynamic-service/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/chat-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" />
+        <option value="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/CacheServiceCoreApplication.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/test/java/com/ldm/CacheServiceCoreApplicationTests.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java" />
       </list>
     </option>
   </component>
@@ -144,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,25 +290,47 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-service-core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/chat-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/cache-service/cache-service-core" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\microservice\backend\activity-service\activity-service-core\src\main\resources" />
+      <recent name="D:\microservice\backend\dynamic-service\dynamic-service-core\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ActivityServiceCoreApplication (1)">
     <configuration name="ActivityServiceCoreApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="activity-service-core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.ActivityServiceCoreApplication" />
@@ -196,16 +352,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivityServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="activity-service-core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.core.ActivityServiceCoreApplication" />
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.ApiGatewayApplication" />
+    <configuration name="CacheServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cache-service-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.CacheServiceCoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,13 +394,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="search-service-core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.core.SearchServiceCoreApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service-core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.UserServiceCoreApplication" />
@@ -252,6 +401,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ActivityServiceCoreApplication (1)" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ChatServiceApplication" />
+      <item itemvalue="Spring Boot.DynamicServiceCoreApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.SearchServiceCoreApplication (1)" />
+      <item itemvalue="Spring Boot.UserServiceCoreApplication" />
+      <item itemvalue="Spring Boot.CacheServiceCoreApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -264,17 +423,32 @@
       <option name="presentableId" value="Default" />
       <updated>1570769972592</updated>
       <workItem from="1570769973892" duration="1596000" />
-      <workItem from="1570783166292" duration="4654000" />
+      <workItem from="1570783166292" duration="6229000" />
+      <workItem from="1570799665014" duration="107000" />
+      <workItem from="1570947767532" duration="2730000" />
+      <workItem from="1570978484021" duration="71000" />
+      <workItem from="1571976313720" duration="1657000" />
+      <workItem from="1572064735776" duration="11690000" />
+      <workItem from="1572076789030" duration="10324000" />
     </task>
+    <task id="LOCAL-00001" summary="先补充一部分">
+      <created>1570794764247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570794764247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6250000" />
+    <option name="totallyTimeSpent" value="34404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2621212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -284,7 +458,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +469,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32730263" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,111 +486,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="先补充一部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="先补充一部分" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-api/src/main/java/com/ldm/api/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/activity-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/src/main/java/com/ldm/SearchServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -429,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -443,38 +515,350 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/backend/chat-service/src/main/java/com/ldm/ChatServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/search-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/src/main/java/com/ldm/SearchServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/chat-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="342">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/chat-service/src/main/java/com/ldm/ChatServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/DynamicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/eureka-server/src/main/java/com/ldm/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/test/java/com/ldm/CacheServiceCoreApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/CacheServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/cache-service-api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/FeignException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -528,10 +912,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>activity-service-core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

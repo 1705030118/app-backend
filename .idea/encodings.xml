@@ -5,16 +5,16 @@
     <file url="file://$PROJECT_DIR$/backend/activity-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/activity-service/activity-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/activity-service/activity-service-core" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/backend/activity-service/activity-service-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/cache-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/cache-service/cache-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/cache-service/cache-service-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/chat-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/dynamic-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/search-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/backend/search-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/backend/search-service/search-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/search-service/search-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/search-service/search-service-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/user-service" charset="UTF-8" />
