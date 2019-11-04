@@ -2,71 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a159081-96ab-43bc-a350-f6b227533ec5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/DynamicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/cache-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/cache-service-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/cache-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cache-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/mapper/userMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/activity-service-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/activity-service-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/api-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chat-service/chat-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chat-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chat-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/dynamic-service-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/search-service/search-service-core/search-service-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api-gateway/target/classes/com/ldm/aggregation/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api-gateway/target/classes/com/ldm/aggregation/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/api/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-api/target/classes/com/ldm/api/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/UserServiceCoreApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/UserServiceCoreApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/core/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/target/classes/com/ldm/core/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user-service/user-service-core/user-service-core.iml" afterDir="false" />
     </list>
@@ -101,55 +68,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
+        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+            <state relative-caret-position="362">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/eureka-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/FeignException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,19 +89,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            <state relative-caret-position="110">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="216">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,22 +110,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
+        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="162">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
+        <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -224,35 +197,45 @@
         <option value="$PROJECT_DIR$/backend/chat-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java" />
         <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java" />
-        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java" />
         <option value="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java" />
-        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java" />
-        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
         <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java" />
         <option value="$PROJECT_DIR$/backend/eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" />
         <option value="$PROJECT_DIR$/backend/cache-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/CacheServiceCoreApplication.java" />
-        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/backend/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/test/java/com/ldm/CacheServiceCoreApplicationTests.java" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/pom.xml" />
         <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/CacheController.java" />
-        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java" />
         <option value="$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java" />
+        <option value="$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/mapper/selectUser.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/entity/User.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/handle/SwaggerHandler.java" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/config/SwaggerProvider.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -262,6 +245,26 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="api-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-service-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-service-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -277,7 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,28 +287,11 @@
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-service-core" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -344,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ActivityServiceCoreApplication (1)">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ActivityServiceCoreApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="activity-service-core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldm.ActivityServiceCoreApplication" />
@@ -429,7 +414,12 @@
       <workItem from="1570978484021" duration="71000" />
       <workItem from="1571976313720" duration="1657000" />
       <workItem from="1572064735776" duration="11690000" />
-      <workItem from="1572076789030" duration="10324000" />
+      <workItem from="1572076789030" duration="11744000" />
+      <workItem from="1572154724391" duration="7214000" />
+      <workItem from="1572616534811" duration="8522000" />
+      <workItem from="1572763528661" duration="641000" />
+      <workItem from="1572857389810" duration="22000" />
+      <workItem from="1572884015497" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="先补充一部分">
       <created>1570794764247</created>
@@ -438,17 +428,23 @@
       <option name="project" value="LOCAL" />
       <updated>1570794764247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="继续补充">
+      <created>1572093616996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572093616996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34404000" />
+    <option name="totallyTimeSpent" value="54691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2621212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2719697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,7 +454,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,12 +465,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32730263" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32673267" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32954547" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -486,84 +482,56 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="先补充一部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="先补充一部分" />
+    <MESSAGE value="继续补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续补充" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/src/main/java/com/ldm/api/DynamicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/chat-service/src/main/java/com/ldm/ChatServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/src/main/java/com/ldm/SearchServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/chat-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dynamic-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/search-service/search-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -572,49 +540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/DynamicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/dynamic-service/dynamic-service-core/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/dto/ActivityDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,13 +562,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -680,140 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/ApiGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -821,17 +610,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/FeignException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="1062">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar!/feign/FeignException.class">
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/mapper/selectUser.java" />
+    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/mapper/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/core/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.3.RELEASE/spring-cloud-gateway-core-2.1.3.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/handle/SwaggerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/config/DocumentationConfig.java" />
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/config/SwaggerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/java/com/ldm/UserServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/ActivityServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/DynamicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -845,20 +755,331 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-core/src/main/java/com/ldm/core/CacheServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/dto/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/user-service/user-service-api/src/main/java/com/ldm/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/cache-service/cache-service-api/src/main/java/com/ldm/api/CacheService.java">
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-api/src/main/java/com/ldm/api/ActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.ldm:api-gateway:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ldm:api-gateway:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ldm:api-gateway:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.1.3.RELEASE/org.springframework.security:spring-security-crypto:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.3.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.3.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.2.3.RELEASE/io.projectreactor:reactor-core:jar:3.2.12.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.3.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.2.3.RELEASE/io.projectreactor:reactor-core:jar:3.2.12.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final/io.netty:netty-common:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final/io.netty:netty-buffer:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final/io.netty:netty-transport:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final/io.netty:netty-transport:jar:4.1.39.Final/io.netty:netty-resolver:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http:jar:4.1.39.Final/io.netty:netty-codec:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-codec-http2:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-handler:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-handler-proxy:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-handler-proxy:jar:4.1.39.Final/io.netty:netty-codec-socks:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.39.Final/io.netty:netty-transport-native-unix-common:jar:4.1.39.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE/org.glassfish:javax.el:jar:3.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.springframework:spring-webflux:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0/org.synchronoss.cloud:nio-stream-storage:jar:1.1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.16</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.16</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE/org.springframework:spring-jcl:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.springframework:spring-test:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.3.RELEASE</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.3.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.3.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0/io.github.openfeign.form:feign-form:jar:3.8.0</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.3.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0/commons-fileupload:commons-fileupload:jar:1.4</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.3.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.8.0/commons-fileupload:commons-fileupload:jar:1.4/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/io.github.openfeign:feign-core:jar:10.2.3</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/io.github.openfeign:feign-slf4j:jar:10.2.3</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/io.github.openfeign:feign-hystrix:jar:10.2.3</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/io.github.openfeign:feign-hystrix:jar:10.2.3/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
+            <node x="" y="">com.ldm:user-service-api:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.3.RELEASE/io.github.openfeign:feign-hystrix:jar:10.2.3/com.netflix.hystrix:hystrix-core:jar:1.5.18/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">com.ldm:activity-service-api:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.ldm:cache-service-api:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:unknown</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.8.RELEASE/org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.10.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.9/org.apache.httpcomponents:httpcore:jar:4.4.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.9/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-core:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.0.3/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.3.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.3.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.3.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-annotations:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.28</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.18.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/org.jboss.logging:jboss-logging:jar:3.3.3.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework:spring-web:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework:spring-webmvc:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE/org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-expression:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.8.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.8.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0769397956965876" x="1884.8476286579214" y="560.354591321897" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/activity-service/activity-service-core/src/main/java/com/ldm/core/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/src/main/java/com/ldm/aggregation/ActivityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>

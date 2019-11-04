@@ -14,6 +14,6 @@ public class UserController {
     @RequestMapping("/info")
     public UserDTO getCurrentInfo(){
         //安全对象拿到用户id
-        return userService.get(1);
+        return userService.get(123456);
     }
 }
