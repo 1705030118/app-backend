@@ -19,7 +19,7 @@
 - 个人职责：后端负责人，由单体架构替换微服务架构
 - 所用技术：Spring Cloud、MySQL、Redis、ElasticSearch、RabbitMQ等
 - 个人收获：集成Redis集群，业务分库，系统拆分，基于ElasticSearch实现全文检索，基于RabbitMQ做异步处理，使用AES算法对关键数据进行加密/解密。
-- 难题解决：
+- 难题解决：分布式事务
 ---
 # 个人荣誉
 - 2019年湖南省大学生计算机程序设计竞赛（ACM程序设计类）三等奖
